@@ -5,21 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My College</title>
     <link rel="stylesheet" href="styles.css">
+    
     <style>
         p{
             color: blue!important;
         }
         #intro {
             color: red;
-        }
-        .note{
-            color: green;
-        }
+        } 
+        .box {
+         width: 200px;
+         height: 100px;
+        padding: 20px;
+         border: 23px solid #c1d119;
+        margin: 10px;
+        .card {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #333;
+}
+
+/* ⭐ Shorthand: width style color */
+.card {
+  border: 10px solid #333;
+}
+     }
+            
+        
         </style>
 </head>
 <body>
     <header>
-        <h1>My College</h1>
+        <h1 class="box">My College</h1>
         <p>lore ipsum dolor sit amet</p>
     </header>
 
@@ -41,6 +58,12 @@
 
     <section id="courses">
         <h2>Courses Offered</h2>
+        <div>
+            <p>HELLO COLLEGE</p>
+            <div>
+                <p>BYE BYE COLLEGE</p>
+            </div>
+        </div>
 
         <article>
             <h3>Computer Science and Engineering in AI and ML</h3>
@@ -58,7 +81,7 @@
 
         <video width="450" controls>
             <source src="clg.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+            Your browser does not support the video tag
         </video>
         <audio controls>
         <source src="college.mp3" type="audio/ogg">
@@ -67,6 +90,11 @@
         </audio>
 
         <h3>College Location</h3>
+        <div class="card">
+            <p>learning border properties</p>
+        </div>
+
+
 
         <iframe
             src="https://www.google.com/maps?q=Hi-Tech+Institute+of+Engineering+and+Technology+Ghaziabad&output=embed"
